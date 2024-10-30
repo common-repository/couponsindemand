@@ -1,0 +1,355 @@
+.CID-wrap input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+.CID-wrap input[type=radio] + label {
+    display:inline-block;
+    margin-left:-3px;
+    padding: 4px 12px;
+}
+
+/* Downloaded file type */
+#CID-file-wrapper1 {
+    background-color: #E7E7E7;
+    border-radius: 10px 0 0 10px;
+    height: 28px !important;
+    float: left;
+	cursor:pointer;
+}
+#CID-file-wrapper1 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 10px 0 0 10px;
+}
+#CID-file-wrapper2{
+    background-color: #E7E7E7;
+    border-radius: 0 10px 10px 1px;
+    float: left;
+	cursor:pointer;
+}
+#CID-file-wrapper2 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 0 10px 10px 1px;
+}
+
+#CID-conf-wrapper1 {
+    background-color: #E7E7E7;
+    border-radius: 10px 0 0 10px;
+    height: 28px !important;
+    float: left;
+	cursor:pointer;
+}
+
+#CID-conf-wrapper1 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 10px 0 0 10px;
+}
+
+#CID-conf-wrapper2{
+    background-color: #E7E7E7;
+    border-radius: 0 10px 10px 1px;
+    float: left;
+	cursor:pointer;
+}
+
+#CID-conf-wrapper0{
+    background-color: #E7E7E7;
+    border-radius: 0 10px 10px 1px;
+    float: left;
+	cursor:pointer;
+}
+
+#CID-conf-wrapper0 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 0 10px 10px 1px;
+}
+#CID-conf-wrapper2 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 0 10px 10px 1px;
+}
+
+/* Show accpeted locations */
+#CID-location-wrapper1 {
+    background-color: #E7E7E7;
+    border-radius: 10px 0 0 10px;
+    height: 28px !important;
+    float: left;
+	cursor:pointer;
+}
+#CID-location-wrapper1 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 10px 0 0 10px;
+}
+#CID-location-wrapper2{
+    background-color: #E7E7E7;
+    border-radius: 0 10px 10px 1px;
+    float: left;
+	cursor:pointer;
+}
+#CID-location-wrapper2 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 0 10px 10px 1px;
+}
+.CID-wrap input[type="checkbox"], input[type="radio"] {
+    margin: 1px 0 0;
+    padding: 0;
+    vertical-align: text-top;
+}
+
+/* Show social sharing */
+#CID-social-wrapper1 {
+    background-color: #E7E7E7;
+    border-radius: 10px 0 0 10px;
+    height: 28px !important;
+    float: left;
+	cursor:pointer;
+}
+#CID-social-wrapper1 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 10px 0 0 10px;
+}
+#CID-social-wrapper2{
+    background-color: #E7E7E7;
+    border-radius: 0 10px 10px 1px;
+    float: left;
+    height: 28px !important;
+	cursor:pointer;
+}
+#CID-social-wrapper2 input[type=radio]:checked + label{
+    background-image: none;
+    background-color:#d0d0d0;
+    border-radius: 0 10px 10px 1px;
+}
+
+
+/*==============================================================STYLE FROM CFM===========================================*/
+
+.ui-tabs .ui-tabs-hide {
+    position: absolute;
+    left: -10000px;
+}
+
+.main {
+    background: none repeat scroll 0 0 #F6F2EE;
+    margin: 0 auto;
+    min-height: 500px;
+    padding: 0;
+	width:100%;
+}
+/*==============================================STYLE FROM CFM===================================*/
+
+body {
+	/*background: #eee;*/
+	padding: 0;
+	margin: 0;
+}
+.CID-map_canvas {
+	width: 59%;
+	height: 250px;
+	float: left;
+	position: relative;
+	z-index: 30 !important;
+}
+.CID-location h3 {
+	margin: 0 0 1px 0;
+	font: bold 13px Helvetica, Arial, Sans-Serif;
+	color: black;
+	letter-spacing: -1px;
+	line-height: 1.231
+}
+#CID-locations p {
+	font-size: 12px;
+	line-height: 1.231;
+	padding: 0;
+	margin: 0;
+}
+
+#CID-locations div {
+	font-size: 12px;
+	line-height: 1.231;
+	padding: 0;
+	margin: 0;
+}
+
+.CID-location ul {
+	padding: 0;
+	margin: 0;
+}
+/*.CID-location {
+	width: 48%;
+	float: left;*/
+	/*background-color: #efebe2;*/
+	/*padding: 14px 7px;
+}*/
+#CID-locations {
+	list-style: none;
+	width: 41%;
+	float: left;
+	font: small courier, monospace black;
+	height: 250px; /* or whatever measurements you want */
+	overflow: auto; /* in most browsers, this will results in a scrollbar when there's more content than can fit in the dimensions defined above */
+	overflow-x: hidden;
+}
+#CID-locations li {
+	padding: 4px;
+	width: 94%;
+	float: left;
+	position: relative;
+	z-index: 20;
+	border-bottom: 1px solid #dfdad4;
+	margin-left: 3px;
+	background: none;
+}
+#CID-locations li:hover, #CID-locations li.hover {
+	background: #efebe2;
+}
+#CID-locations li:hover h3, #CID-locations li.hover h3 {
+	color: #145aa0;
+	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.3);
+}
+#CID-wrapper {
+	width: 92%;
+	max-width: 1000px;
+	min-width: 400px;
+	margin: 5px auto;
+	padding-top: 10px;
+}
+
+.CID-wrap {
+	width: 100%;
+	max-width: 1000px;
+	min-width: 400px;
+}
+
+.CID-pin {
+	width: 100%;
+	display: inline-block;
+	background: #FEFEFE;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+		opacity: 1;
+		-webkit-transition: all .2s ease;
+		-moz-transition: all .2s ease;
+		-o-transition: all .2s ease;
+		transition: all .2s ease;
+		margin: 5px;
+	}
+	
+	.CID-pin img {
+		width: 100%;
+		float: left;
+	}
+	.CID-pin p {
+		font: 12px/18px Arial, sans-serif;
+		color: #333;
+	}
+	#CID-columns:hover .CID-pin:not(:hover) {
+		opacity: 0.3;
+	}
+	
+	/*.CID-coupon-section { 
+		width:48%; 
+		float: left; 
+		position: relative; 
+		padding: 14px 7px;
+	}*/
+	.CID-coupon-section { 
+		width:40%; 
+		min-width:350px;
+		max-width:432px;
+		text-align:center;
+		margin:0 auto;
+		/*float: left;
+		display: inline-block;*/
+		position: relative; 
+		padding: 14px 7px;
+		vertical-align: top;
+	}
+	.CID-rounded { -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; }
+	.CID-widget { width:100%; float: left; position: relative; margin-bottom: 10px; }
+	.CID-overlay { 
+		position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+		background: rgba(223,218,212,0.3); 
+		text-align: center; 
+		color:white !important;
+	}
+	.CID-widget-button { 
+		position: relative; 
+		padding: 6px 18px; 
+		background: #145aa0; 
+		border: 2px solid white; 
+		color:white !important; 
+		text-decoration: none; 
+		text-transform: uppercase; 
+		-moz-box-shadow: 0 0 20px #666; 
+		-webkit-box-shadow: 0 0 20px #666;
+		box-shadow: 0 0 20px #666;
+		font: bold 24px Helvetica, Arial, Sans-Serif;
+		letter-spacing: -1px;
+		-moz-binding: ; 
+	}
+	
+	/* Landscape phones and down */
+	@media screen and (max-width: 480px) { 
+		.CID-location h3{ font-size:11px; }
+		#CID-locations p { font-size:9px; }
+	}
+	.CID-widget-button:hover { text-transform: uppercase; -moz-box-shadow: 0 0 20px #000; -webkit-box-shadow: 0 0 20px #000; box-shadow: 0 0 20px #000; 
+		color:white !important;}
+	/* Landscape phone to portrait tablet */
+	@media screen and (max-width: 774px) { 
+		.CID-location h3{ font-size:13px; }
+		#CID-locations p { font-size:11px; }
+		.CID-coupon-section { width: 98%; }
+		/*.CID-location { width: 98%; }*/
+	}
+	
+	/* Portrait tablet to landscape and desktop */
+	@media screen and (min-width: 775px) and (max-width: 979px) { 
+		.CID-location h3{ font-size:12px; }
+		#CID-locations p { font-size:10px; }
+	}
+	
+	/* Large desktop */
+	@media screen and (min-width: 1200px) { 
+		.CID-location h3{ font-size:13px; }
+		#CID-locations p { font-size:11px; } 
+	}
+				
+/*====================================================STYLE FROM COUPONS IN DEMAND=======================*/
+
+label, .label {
+  display: block;
+  font-weight: bold;
+}
+.CID-rounded-corner {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	background-color:#efece7;
+}
+
+.CID-rounded-corner-white {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	background-color:#fff;
+}
+.CID-rounded-corner-white a {
+	text-decoration:none;
+}
+
+.entry-content iframe {margin-bottom:0px;}
